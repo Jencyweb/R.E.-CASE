@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat May 13 18:13:16 2023
+
+@author: jencyroberts
+"""
+
+CREATE TABLE weather (
+    city varchar(255),
+    country varchar(255),
+    weather_description varchar(255),
+    temperature float,
+    pressure float,
+    humidity float
+);
+
+CREATE TABLE news (
+    source varchar(255),
+    author varchar(255),
+    title varchar(255),
+    description varchar(255),
+    url varchar(255),
+    url_to_image varchar(255),
+    published_at timestamp
+);
+
+
+
+
